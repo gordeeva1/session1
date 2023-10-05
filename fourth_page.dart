@@ -25,15 +25,9 @@ class fourth_page extends StatelessWidget {
           ),
               ElevatedButton(
                 child: const Text(' Далее'),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const five_page()),
-                  );
-                },
+                onPressed: null
               ),
-              SizedBox(width: 8),
+              SizedBox(width: 15),
               Container(
                 child: Text("Или войдите с помощью", style: TextStyle(color: Colors.black38, fontSize: 14),),
               ),
@@ -53,3 +47,4 @@ class fourth_page extends StatelessWidget {
       ),
     );
   }
+}
